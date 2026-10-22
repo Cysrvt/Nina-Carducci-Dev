@@ -97,7 +97,7 @@ body {
 }
 
 #gallery {
-	/*	min-height: 100vh; */
+	min-height: 100vh;
 }
 
 .title {
@@ -111,13 +111,14 @@ body {
 
 .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link {
-	color: #fff;
-	background-color: #BEB45A;
+	color: #ffffff;
+	background-color: #928b47;
 	border-radius: 0;
 }
 
 .nav-pills .nav-link {
-	color: #000
+	color: #000;
+	font-size: 24px;
 }
 
 .item-column {
@@ -164,6 +165,7 @@ body {
 	font-family: Spectral;
 	font-style: italic;
 	font-weight: 300;
+	font-size: 36px;
 
 }
 
